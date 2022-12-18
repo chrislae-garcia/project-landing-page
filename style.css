@@ -82,3 +82,38 @@ a, .hero-secondary {
   background-color: grey;
   color: #fff;
 }
+
+.information {
+  padding: 40px 20% 100px;
+  text-align: center;
+}
+
+.info-header {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding-bottom: 40px;
+}
+
+.information-items {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 18px;
+}
+
+.info-item {
+  flex-shrink: 0;
+  flex-basis: 180px;
+}
+
+.info-image {
+  height: 180px;
+  border: 5px solid #3882F6;
+  border-radius: 20px;
+}
+
+.info-subtext {
+  color: grey;
+  padding-top: 10px;
+  font-size: 18px;
+}
