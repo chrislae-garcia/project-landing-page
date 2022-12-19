@@ -137,5 +137,39 @@ a, .hero-secondary {
   font-size: 26px;
   font-weight: bold;
   align-self: flex-end;
+}
 
+.cta-section {
+  padding: 80px 15%;
+}
+
+.cta-box {
+  display: flex;
+  padding: 40px 130px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882F6;
+  border-radius: 10px;
+}
+
+.cta-header {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta-subtext {
+  font-size: 18px;
+}
+
+.cta-box, .cta-sign-up {
+  color: #fff;
+}
+
+.cta-sign-up {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #3882F6;
+  padding: .5rem 3rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
 }
